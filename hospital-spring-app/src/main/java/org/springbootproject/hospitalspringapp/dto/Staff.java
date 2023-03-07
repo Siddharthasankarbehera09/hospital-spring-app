@@ -8,9 +8,14 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Test {
+public class Staff {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String name;
+	private int age;
+	private String desg;
+	private String email;
+	private long phone;
+	private String password;
 }
